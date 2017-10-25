@@ -216,7 +216,10 @@ i.arw {
 .bglow {
   padding: 2em 0;
 }
-
+.bglow-right{
+  text-align: right;
+  padding-right: 30px;
+}
 .bglow-right ul {
   padding: 0;
 }
