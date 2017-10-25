@@ -54,6 +54,7 @@ body a{
 	padding:0;
 	margin: 0;
 }
+
 *,
 *:after,
 *::before {
@@ -80,6 +81,14 @@ ul a:focus {
 	color: ;
 	text-decoration: none;
 }
+
+.header_2 {
+    text-align: right;
+    font-size: 13px;
+    color: #999898;
+    margin-right: 25PX;
+}
+
 /* Effect 16: fall down */
 .cl-effect-16 a {
 	color: #090909;
@@ -929,6 +938,17 @@ i.arrw {
   padding-right: 0;
   width: 50%;
   float: right;
+}
+    
+.img-responsive_1 {
+    position: absolute;
+    
+    z-index: 10;
+    top: 105px;
+    right: 125px;
+    -webkit-box-shadow: -10px 20px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 20px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: -10px 20px 20px 0px rgba(0,0,0,0.75);
 }
 i.arrw {
   top: 12px;
